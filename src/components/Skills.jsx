@@ -15,6 +15,7 @@ import antd from "../images/antd.svg";
 import bs from "../images/bs.png";
 import c from "../images/c.png";
 import redux from "../images/redux.png";
+import git from "../images/git.png";
 import { FaDesktop } from "react-icons/fa";
 
 const Skills = () => {
@@ -70,6 +71,10 @@ const Skills = () => {
         <div className="border customShadow px-4 py-2 pb-1 flex flex-col justify-center items-center rounded-xl">
           <img className="w-[40px] h-[40px]" src={c} alt="" />
           <h1 className="text-white font-bold mt-2">C</h1>
+        </div>
+        <div className="border customShadow px-4 pb-1 flex flex-col items-center rounded-xl">
+          <img className="w-[60px] h-[60px]" src={git} alt="" />
+          <h1 className="text-white font-bold mt-2">GIT</h1>
         </div>
         <div className="border customShadow px-4 pb-1 flex flex-col items-center rounded-xl">
           <img className="w-[60px] h-[60px]" src={github} alt="" />

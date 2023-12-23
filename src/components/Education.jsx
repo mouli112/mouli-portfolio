@@ -50,7 +50,7 @@ const Education = () => {
             MPC
           </h4>
           <p> M.S.R Junior College,Chimakurthy</p>
-          <p className="text-blue-200">1st Class</p>
+          <p className="text-blue-200">Marks - 923</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -66,7 +66,7 @@ const Education = () => {
             {" "}
             Science
           </h4>
-          <p>Z.P High School,Konagani Vari Palem</p>
+          <p>Z.P High School,KonaganiVariPalem</p>
           <p className="text-green-100">Grade - 8.8</p>
         </VerticalTimelineElement>
       </VerticalTimeline>

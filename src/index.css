@@ -188,7 +188,6 @@ button:focus-visible {
 
 #contact {
   background: url("./images/star.png");
-
   background-size: cover;
   background: rgb(21, 21, 21);
   background-position: center center;
@@ -230,3 +229,23 @@ button:focus-visible {
     height: 150px !important;
   }
 }
+.code-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  overflow: hidden; /* Hide any overflow */
+  text-overflow: ellipsis; /* Display an ellipsis (...) if the text overflows */
+}
+.code-title {
+  margin-bottom: 1rem; 
+}
+
+@media (min-width: 768px) {
+  .code-title {
+    width: 80%; 
+  }
+}
+

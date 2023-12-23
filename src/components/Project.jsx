@@ -2,7 +2,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-
 import img from "../images/digitic.jpeg";
 import chat from "../images/chat.jpeg";
 import recruitifie from "../images/recruitifie.jpeg";
@@ -53,8 +52,8 @@ const Project = () => {
                 </div>
                 <div className="mt-2">
                   <ProjectCard
-                    projectDescription="Designed and developed backend code for this project registartion,login nd admin part.Authentication and authorization also completed"
-                    tech="Technologies Used:- Node JS, Mongo DB, Express,JWT"
+                    projectDescription="Designed and developed backend code for this project registartion,login nd admin part.Authentication and authorization also completed,chat application added to this"
+                    tech="Technologies Used:- Node JS, Mongo DB, Express,JWT,Socket.io"
                   />
                 </div>
               </div>
@@ -91,8 +90,8 @@ const Project = () => {
                 </div>
                 <div className="mt-2">
                   <ProjectCard
-                    projectDescription="Designed and developed backend code for this project registartion,login nd admin part.Authentication and authorization also completed"
-                    tech="Technologies Used:- Node JS, Mongo DB, Express,JWT"
+                    projectDescription="Cloned entire digitic Ecommerce platform and built backend to this using below technologies and its a challenging app"
+                    tech="Technologies Used:- Node JS, Mongo DB, Express,JWT,nodemailer"
                   />
                 </div>
               </div>
@@ -116,7 +115,7 @@ const Project = () => {
               <div className="flex gap-2 project-description justify-between flex-wrap">
                 <div>
                   <a
-                    href=""
+                    href="https://github.com/mouli112/Chat-App"
                     target="_blank"
                   >
                     <button className="px-1 py-[4px] mt-4 bg-green-600 text-white outline-none ">
@@ -126,8 +125,8 @@ const Project = () => {
                 </div>
                 <div className="mt-2">
                   <ProjectCard
-                    projectDescription="This chat app is building by using socket.io "
-                    tech="Technologies Used:- React js, Express js, Node js, MongoDB, JWT,CSS"
+                    projectDescription="This is a full stack chat application user can register and login to the app and he can chat with the people"
+                    tech="Technologies Used:- Node.js,Express.js,MongoDB,React.js,JWT,socket.io"
                   />
                 </div>
               </div>

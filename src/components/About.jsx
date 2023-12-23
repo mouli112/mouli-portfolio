@@ -63,8 +63,8 @@ const About = () => {
             </ListItem>
           </List>
           <div className="mt-10 sm:px-0 px-10">
-            <h2 className="text-white text-xl border-b-2 sm:w-[50%] w-[80%] sm:text-left text-center ml-auto mr-auto border-blue-800 pb-1">
-              My Coding 
+            <h2 className="text-white text-xl border-b-2 sm:w-[80%] w-[80%] sm:text-left text-center ml-auto mr-auto border-blue-400 pb-1 code-title">
+              my coding profiles
             </h2>
             <div className="flex  sm:gap-6 gap-2 my-6 w-full">
               <div>

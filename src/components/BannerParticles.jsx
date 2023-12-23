@@ -56,9 +56,7 @@ const BannerParticles = () => {
                   "Backend Development ",
                   1000,
                   "Problem Solving",
-                  1000,
-                  "Web Desigining",
-                  1000,
+                  1000
                 ]}
                 wrapper="span"
                 speed={200}
